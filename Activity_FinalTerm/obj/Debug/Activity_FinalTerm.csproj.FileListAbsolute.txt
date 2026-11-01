@@ -1,0 +1,13 @@
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.csproj.AssemblyReference.cache
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.Form1.resources
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.Properties.Resources.resources
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.csproj.GenerateResource.cache
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.csproj.CoreCompileInputs.cache
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\bin\Debug\Activity_FinalTerm.exe.config
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\bin\Debug\Activity_FinalTerm.exe
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\bin\Debug\Activity_FinalTerm.pdb
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\bin\Debug\MySql.Data.dll
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity.19362055.Up2Date
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.exe
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.pdb
+C:\sora\Activity_FinalTerm\Activity_FinalTerm\obj\Debug\Activity_FinalTerm.exe.config
