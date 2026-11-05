@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -89,6 +90,30 @@ namespace Activity_FinalTerm
                 // Handle any other exceptions
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
+        }
+
+        public static DataTable getData(string query, Dictionary<string, object> parameters = null)
+        {
+            DataTable table = new DataTable();
+            using (var con = GetConnection())
+            using (var cmd = con.CreateCommand())
+            {
+                cmd.CommandText = query;
+                if (parameters != null)
+                {
+                    foreach (var p in parameters)
+                    {
+                        var param = cmd.CreateParameter();
+                        param.ParameterName = p.Key;
+                        param.Value = p.Value;
+                        cmd.Parameters.Add(param);
+                    }
+                }
+                if (con.State != ConnectionState.Open) con.Open();
+                using (var reader = cmd.ExecuteReader())
+                    table.Load(reader);
+            }
+            return table;
         }
     }
 }
